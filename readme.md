@@ -4,7 +4,7 @@
 1. Install anaconda if you don't have it yet.
 2. Create a Conda environment:
 ```
-conda create --name myenv
+conda create --name aruco
 ```
 3. Open the project folder in terminal, then install the opencv package:
 ```
