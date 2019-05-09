@@ -1,14 +1,14 @@
-from cam_calib.camera_calibration import cam_calib
+#from cam_calib.camera_calibration import cam_calib
 import numpy as np
 import cv2 as cv
 from cv2 import aruco
 
 # ################### INITIALIZING ############################################
-rt, mtx, dist, cam_rvecs, cam_tvecs = cam_calib()  #to run calibration
-# mtx = np.array([[1.1551e+03, 0, 5.457e+02],
-#                [0, 1.1509e+03, 7.174e+02],
-#                [0, 0, 1]])  # calibrate result
-# dist = np.array([3.932e-1, -2.104, -3.6e-3, 1.9e-3, 3.1098])
+#rt, mtx, dist, cam_rvecs, cam_tvecs = cam_calib()  #to run calibration
+mtx = np.array([[1.1551e+03, 0, 5.457e+02],
+               [0, 1.1509e+03, 7.174e+02],
+               [0, 0, 1]])  # calibrate result
+dist = np.array([3.932e-1, -2.104, -3.6e-3, 1.9e-3, 3.1098])
 # calculated from Matlab
 # mtx = np.array([[6.204675e+02, 0, 3.601938e+02],
 #                [0, 6.19458e+02, 2.450647e+02],
